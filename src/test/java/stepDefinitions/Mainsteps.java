@@ -61,6 +61,8 @@ public class Mainsteps {
 //	    throw new io.cucumber.java.PendingException();
 		System.out.println("User login into application");
 		
+		System.out.println("User login into application after downloading project from Git");
+		
 	}
 	@Then("Cards are displayed")
 	public void cards_are_displayed() {
